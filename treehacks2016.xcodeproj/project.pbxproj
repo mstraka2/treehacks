@@ -24,6 +24,27 @@
 			remoteGlobalIDString = E81735E21C6F262200E6AE94;
 			remoteInfo = treehacks2016;
 		};
+		E84E32871C6FC42900AD2121 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E84E32811C6FC42900AD2121 /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5BA8EC401A9D14DC00CE82E1;
+			remoteInfo = "Charts-iOS";
+		};
+		E84E32891C6FC42900AD2121 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E84E32811C6FC42900AD2121 /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A52C5C371BAC5CA400594CDD;
+			remoteInfo = "Charts-TV";
+		};
+		E84E328B1C6FC42900AD2121 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E84E32811C6FC42900AD2121 /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 06AEE7A21BDC3F8B009875AE;
+			remoteInfo = ChartsTests;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +59,7 @@
 		E81735F81C6F262300E6AE94 /* treehacks2016Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = treehacks2016Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E81735FD1C6F262300E6AE94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E81735FE1C6F262300E6AE94 /* treehacks2016Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = treehacks2016Tests.swift; sourceTree = "<group>"; };
+		E84E32811C6FC42900AD2121 /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Charts.xcodeproj; path = "../../ios-charts-master/Charts/Charts.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +105,7 @@
 				E81735EA1C6F262200E6AE94 /* ViewController.swift */,
 				E5B7A8161C6F2C9F0008031D /* ReadMe.md */,
 				E81735EC1C6F262200E6AE94 /* Main.storyboard */,
+				E84E32811C6FC42900AD2121 /* Charts.xcodeproj */,
 				E81735EF1C6F262200E6AE94 /* Images.xcassets */,
 				E81735F11C6F262200E6AE94 /* LaunchScreen.xib */,
 				E81735E61C6F262200E6AE94 /* Supporting Files */,
@@ -113,6 +136,16 @@
 				E81735FD1C6F262300E6AE94 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E84E32821C6FC42900AD2121 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E84E32881C6FC42900AD2121 /* Charts.framework */,
+				E84E328A1C6FC42900AD2121 /* Charts.framework */,
+				E84E328C1C6FC42900AD2121 /* ChartsTests.xctest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,6 +215,12 @@
 			mainGroup = E81735DA1C6F262200E6AE94;
 			productRefGroup = E81735E41C6F262200E6AE94 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = E84E32821C6FC42900AD2121 /* Products */;
+					ProjectRef = E84E32811C6FC42900AD2121 /* Charts.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				E81735E21C6F262200E6AE94 /* treehacks2016 */,
@@ -189,6 +228,30 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		E84E32881C6FC42900AD2121 /* Charts.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Charts.framework;
+			remoteRef = E84E32871C6FC42900AD2121 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E84E328A1C6FC42900AD2121 /* Charts.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Charts.framework;
+			remoteRef = E84E32891C6FC42900AD2121 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E84E328C1C6FC42900AD2121 /* ChartsTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ChartsTests.xctest;
+			remoteRef = E84E328B1C6FC42900AD2121 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		E81735E11C6F262200E6AE94 /* Resources */ = {

@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+import Charts
 class ViewController: UIViewController {
     //MARK: Properties
 
@@ -22,10 +22,26 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    var bloodPressure: Int = 0 {
+        didSet {
+            updateUI()
+        }
+    }
 
+    //MARK: Actions
+    
+    func updateUI() {
+        bloodPressureRequestLabel.text = "Your Blood Pressure is " + String(bloodPressure)
+    }
 
     @IBAction func enterBloodPressure(sender: UIButton) {
-        bloodPressureRequestLabel.text = "Your Blood Pressure is " + bloodPressureTextField.text
+        if let bloodPressureInput = bloodPressureTextField.text.toInt() {
+            bloodPressure = bloodPressureInput
+        } else {
+            bloodPressureRequestLabel.text = "Please put in a number"
+        }
+        
     }
 }
 
