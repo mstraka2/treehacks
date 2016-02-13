@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E5B7A8171C6F2C9F0008031D /* ReadMe.md in Sources */ = {isa = PBXBuildFile; fileRef = E5B7A8161C6F2C9F0008031D /* ReadMe.md */; };
 		E81735E91C6F262200E6AE94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81735E81C6F262200E6AE94 /* AppDelegate.swift */; };
 		E81735EB1C6F262200E6AE94 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81735EA1C6F262200E6AE94 /* ViewController.swift */; };
 		E81735EE1C6F262200E6AE94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E81735EC1C6F262200E6AE94 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E5B7A8161C6F2C9F0008031D /* ReadMe.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = ReadMe.md; sourceTree = "<group>"; };
 		E81735E31C6F262200E6AE94 /* treehacks2016.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = treehacks2016.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E81735E71C6F262200E6AE94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E81735E81C6F262200E6AE94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 			children = (
 				E81735E81C6F262200E6AE94 /* AppDelegate.swift */,
 				E81735EA1C6F262200E6AE94 /* ViewController.swift */,
+				E5B7A8161C6F2C9F0008031D /* ReadMe.md */,
 				E81735EC1C6F262200E6AE94 /* Main.storyboard */,
 				E81735EF1C6F262200E6AE94 /* Images.xcassets */,
 				E81735F11C6F262200E6AE94 /* LaunchScreen.xib */,
@@ -214,6 +217,7 @@
 			files = (
 				E81735EB1C6F262200E6AE94 /* ViewController.swift in Sources */,
 				E81735E91C6F262200E6AE94 /* AppDelegate.swift in Sources */,
+				E5B7A8171C6F2C9F0008031D /* ReadMe.md in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +413,7 @@
 				E81736041C6F262300E6AE94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E81736051C6F262300E6AE94 /* Build configuration list for PBXNativeTarget "treehacks2016Tests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +422,7 @@
 				E81736071C6F262300E6AE94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
