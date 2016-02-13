@@ -9,7 +9,10 @@
 import UIKit
 
 class ViewController: UIViewController {
+    //MARK: Properties
 
+    @IBOutlet weak var bloodPressureTextField: UITextField!
+    @IBOutlet weak var bloodPressureRequestLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -21,5 +24,8 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func enterBloodPressure(sender: UIButton) {
+        bloodPressureRequestLabel.text = "Your Blood Pressure is " + bloodPressureTextField.text
+    }
 }
 
